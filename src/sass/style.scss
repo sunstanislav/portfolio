@@ -1,5 +1,7 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+// поменял шрифт на Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap');
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -10,9 +12,10 @@
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/about';
+@import 'blocks/resume';
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -26,5 +29,5 @@
     width: 60px;
     height: 3px;
     background-color: $main-color;
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
 }
