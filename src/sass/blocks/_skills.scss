@@ -1,11 +1,12 @@
 .skills {
+    padding-top: 60px;
     position: relative;
     &__title {
         text-align: center;
         margin-bottom: 0;
         @include before_circle;
         &:before {
-            top: -6px;
+            top: 54px;
             left: 50%;
             transform: translateX(-50%);
         }
