@@ -11,3 +11,14 @@
         background: $main-color;
     }
 }
+@mixin before_line {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 2px;
+        left: -11px;
+        background-color: #ffa501;
+        transform: translateY(7px);
+    }
+}

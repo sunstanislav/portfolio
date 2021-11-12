@@ -93,4 +93,16 @@
             }
         }
     }
+    &__column .resume__item {
+        &-ul {
+            padding-left: 15px;
+            li {
+                position: relative;
+                @include before_line;
+                &:after {
+                    width: 0;
+                }
+            }
+        }
+    }
 }

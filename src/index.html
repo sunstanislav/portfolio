@@ -93,8 +93,8 @@
         <nav>
             <ul class="menu__list">
                 <li class="menu__link"><a href="#about">ПРО МЕНЯ</a></li>
-                <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
+                <li class="menu__link"><a href="#about">МОЙ ОПЫТ</a></li>
+                <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
                 <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
                 <li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
                 <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
@@ -133,44 +133,44 @@
             <div class="title title_fz36 about__subtitle">Меня зовут Станислав</div>
             <div class="divider"></div>
             <p class="about__text">Фронтендер, который разбирается в бэкенде. Создаю новые сервисы и сайты, поддерживаю и дополняю существующие. Мой стек технологий: HTML | CSS | SASS | Bootstrap | JavaScript  | Gulp | Git | GitHub. Занимаюсь продвижением сайтов.</p>
-            <div class="about__skills">
-                <div class="about__skills-item">
-                    <div class="about__skills-circle">
-                        <img src="icons/about_me/web_development.svg" alt="web-dev">
-                    </div>
-                    <div><div class="title title_fz14">Web-разработка</div>
-                    <div class="about__skills-text">
-                        Создание сайта, который будет решать задачи владельца, одинаково корректно работать на всех устройствах, независимо от браузера и размера экрана и при этом будет удобен пользователю. Основные инструменты: HTML, CSS и JavaScript.
-                    </div>
+        </div>
+        <div class="about__skills">
+            <div class="about__skills-item">
+                <div class="about__skills-circle">
+                    <img src="icons/about_me/web_development.svg" alt="web-dev">
                 </div>
+                <div><div class="title title_fz14">Web-разработка</div>
+                <div class="about__skills-text">
+                    Создание сайта, который будет решать задачи владельца, одинаково корректно работать на всех устройствах, независимо от браузера и размера экрана и при этом будет удобен пользователю.
                 </div>
-                <div class="about__skills-item">
-                    <div class="about__skills-circle">
-                        <img src="icons/about_me/mobile_dev.svg" alt="mob-dev">
-                    </div>
-                    <div><div class="title title_fz14">SEO продвижение сайтов</div>
-                    <div class="about__skills-text">
-                        <ul>
-                            <li>Технический SEO-аудит сайта</li>
-                            <li>Сбор семантического ядра</li>
-                            <li>Оптимизация контента</li>
-                            <li>Улучшение юзабилити сайта</li>
-                            <li>Наращивание ссылочной массы</li>
-                        </ul>
-                    </div>
+            </div>
+            </div>
+            <div class="about__skills-item">
+                <div class="about__skills-circle">
+                    <img src="icons/about_me/mobile_dev.svg" alt="mob-dev">
                 </div>
+                <div><div class="title title_fz14">SEO продвижение сайтов</div>
+                <div class="about__skills-text">
+                    <ul>
+                        <li>Технический SEO-аудит сайта</li>
+                        <li>Сбор семантического ядра</li>
+                        <li>Оптимизация контента</li>
+                        <li>Улучшение юзабилити сайта</li>
+                        <li>Наращивание ссылочной массы</li>
+                    </ul>
                 </div>
-                <div class="about__skills-item">
-                    <div class="about__skills-circle">
-                        <img src="icons/about_me/design.svg" alt="design">
-                    </div>
-                    <div><div class="title title_fz14">UI/UX Design</div>
-                    <div class="about__skills-text">
-                        Чем понятнее интерфейс, тем легче пользователю получить результат и совершить целевое действие. UX-дизайн — это проектирование интерфейса на основе исследований пользовательского опыта и поведения. Инструменты: Figma, Adobe Illustrator.
-                    </div>
+            </div>
+            </div>
+            <div class="about__skills-item">
+                <div class="about__skills-circle">
+                    <img src="icons/about_me/design.svg" alt="design">
                 </div>
+                <div><div class="title title_fz14">UI/UX Design</div>
+                <div class="about__skills-text">
+                    Чем понятнее интерфейс, тем легче пользователю получить результат и совершить целевое действие. UX-дизайн — это проектирование интерфейса на основе исследований пользовательского опыта и поведения.
                 </div>
-                </div>
+            </div>
+            </div>
             </div>
         </div>
     </div>
@@ -193,9 +193,9 @@
                             <img src="icons/experience/university.svg" alt="university">
                         </div>
                         <h4 class="title title_fz14">НГТУ</h4>
-                        <div class="resume__item-location">Диплом инженера | Новосибирск</div>
+                        <div class="resume__item-location">Диплом инженера | г. Новосибирск</div>
                     </div>
-                    <div class="resume__item-body">Специальность: Электрический транспорт<br><br>Период обучения: 2009-2015г.</div>
+                    <div class="resume__item-body">Специальность: Электрический транспорт<br>Период обучения: 2009-2015г.</div>
                 </div>
             </li>
             <li>
@@ -207,7 +207,13 @@
                         <h4 class="title title_fz14">Udemy</h4>
                         <div class="resume__item-location">Курсы по WEB-разработке</div>
                     </div>
-                    <div class="resume__item-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nostrum aperiam nihil consectetur, libero eos velit sed architecto soluta obcaecati provident vitae quibusdam consequatur magnam fugit accusantium eligendi officia dolorum!</div>
+                    <div class="resume__item-body">
+                        Успешно прошел курсы:
+                    <ul class="resume__item-ul">
+                        <li>WEB-разработчик 2021</li>
+                        <li>Полный курс по JavaScript + React 2021</li>
+                    </ul>
+                    </div>
                 </div>
             </li>
         </ul>
@@ -222,15 +228,133 @@
                             <img src="icons/experience/developer.svg" alt="dev">
                         </div>
                         <h4 class="title title_fz14">SEO</h4>
-                        <div class="resume__item-location">SEO</div>
+                        <div class="resume__item-location">SEOEXPERT - продвижение сайтов | г. Алматы</div>
                     </div>
-                    <div class="resume__item-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nostrum aperiam nihil consectetur, libero eos velit sed architecto soluta obcaecati provident vitae quibusdam consequatur magnam fugit accusantium eligendi officia dolorum!</div>
+                    <div class="resume__item-body">SEO-оптимизация сайтов: составление семантического ядра, структуры сайта, оптимизация посадочных страниц, технический аудит, юзабилити аудит, внешнее продвижение, работа с Яндекс.Вебмастер и Google Search Console и тд.</div>
                 </div>
             </li>
         </ul>
     </div>
     </div>
 </div>
+</section>
+<!-- скилы -->
+<section class="skills" id="skills">
+    <div class="container">
+        <h2 class="title title_fz16 skills__title">Навыки</h2>
+        <div class="title title_fz36 skills__subtitle">Что я использую в работе</div>
+        <div class="divider"></div>
+        <div class="skills__items">
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/html5.svg" alt="html5">
+                </div>
+                <h3 class="title title_fz14">HTML5</h3>
+                <p>Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/css3.svg" alt="css3">
+                </div>
+                <h3 class="title title_fz14">CSS3</h3>
+                <p>Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/sass.svg" alt="sass">
+                </div>
+                <h3 class="title title_fz14">CSS3</h3>
+                <p>Sass дает возможность использовать переменные, вложенные правила, миксины, инлайновые импорты и многое другое, помогает сохранять огромные таблицы стилей хорошо организованными.</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/js.svg" alt="java script">
+                </div>
+                <h3 class="title title_fz14">Java Script</h3>
+                <p>Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img skills__item-imgmt10">
+                    <img src="icons/skills/jquery.svg" alt="Jquery">
+                </div>
+                <h3 class="title title_fz14">Jquery</h3>
+                <p>Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/react.svg" alt="React">
+                </div>
+                <h3 class="title title_fz14">React</h3>
+                <p>Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/node.js.svg" alt="Node.js">
+                </div>
+                <h3 class="title title_fz14">Node.js</h3>
+                <p>Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/mongo.db.svg" alt="Mongo.db">
+                </div>
+                <h3 class="title title_fz14">Mongo.db</h3>
+                <p>Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/figma.svg" alt="Figma">
+                </div>
+                <h3 class="title title_fz14">Figma</h3>
+                <p>Figma — кросс-платформенный онлайн-сервис для дизайнеров интерфейсов и веб-разработчиков.</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img">
+                    <img src="icons/skills/miralinks.png" alt="miralinks">
+                </div>
+                <h3 class="title title_fz14">Miralinks</h3>
+                <p>Инструменты статейного маркетинга.<br> Cервис размещающий статьи на площадках других пользователей с целью получения трастовых ссылок либо целевого трафика.</p>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item-img skills__item-imgmt10">
+                    <img src="icons/skills/rush-analytics.svg" alt="Rush Analytics">
+                </div>
+                <h3 class="title title_fz14">Rush Analytics</h3>
+                <p>Инструменты автоматизации и аналитики для SEO. <br>Сбор ключевых слов, частотности, подсказок, кластеризация. Проверка позиций, анализ конкурентов.</p>
+            </div>
+        </div>
+<!-- проценты -->
+        <div class="skills__raiting">
+            <div class="skills__raiting-item">
+                <div class="skills__raiting-title title title_fz14">Создание сайтов</div>
+                <div class="skills__raiting-conter">90%</div>
+                <div class="skills__raiting-line">
+                    <span style="width: 90%;"></span>
+                </div>
+            </div>
+            <div class="skills__raiting-item">
+                <div class="skills__raiting-title title title_fz14">Сопровождение сайтов</div>
+                <div class="skills__raiting-conter">95%</div>
+                <div class="skills__raiting-line">
+                    <span style="width: 95%;"></span>
+                </div>
+            </div>
+            <div class="skills__raiting-item">
+                <div class="skills__raiting-title title title_fz14">Разработка дизайна</div>
+                <div class="skills__raiting-conter">75%</div>
+                <div class="skills__raiting-line">
+                    <span style="width: 75%;"></span>
+                </div>
+            </div>
+            <div class="skills__raiting-item">
+                <div class="skills__raiting-title title title_fz14">SEO оптимизация</div>
+                <div class="skills__raiting-conter">85%</div>
+                <div class="skills__raiting-line">
+                    <span style="width: 85%;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <script src="js/script.js"></script>
