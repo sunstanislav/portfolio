@@ -48,7 +48,7 @@
             margin: 20px 0 0 0;
         }
     }
-    &__raiting {
+    &__rating {
         margin-top: 60px;
         display: grid;
         grid-template: repeat(2, minmax(70px, auto)) / repeat(2, 350px);
@@ -62,7 +62,7 @@
             justify-content: space-between;
             align-content: space-between;
         }
-        &-conter {
+        &-counter {
             font-size: 14px;
             line-height: 21px;
         }
