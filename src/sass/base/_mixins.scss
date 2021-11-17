@@ -22,3 +22,16 @@
         transform: translateY(7px);
     }
 }
+@mixin before_circle-litle {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        background: $main-color;
+        left: -7px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

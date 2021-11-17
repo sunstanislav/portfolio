@@ -65,17 +65,7 @@
         &-title {
             position: relative;
             padding-left: 35px;
-            &:before {
-                content: '';
-                position: absolute;
-                width: 15px;
-                height: 15px;
-                border-radius: 100%;
-                background: $main-color;
-                left: -7px;
-                top: 50%;
-                transform: translateY(-50%);
-            }
+            @include before_circle-litle;
         }
         ul {
             list-style-type: none;
