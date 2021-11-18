@@ -10,6 +10,16 @@ $mail->CharSet = 'utf-8';
 
 // $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
+- text: >
+    @@ -13,20 +13,28 @@
+    # SECURITY WARNING: KEEP secret
+    SECRET_KEY = {{SECRET_KEY}}
+    +EMAIL_USE_TLS = True
+    +EMAIL_HOST = smtp.gmail.com
+    +EMAIL_HOST_USER = semen.semenich.010@gmail.com
+    +EMAIL_HOST_PASSWORD = tmeGpBM2V6H8gVK1ipdX
+    +EMAIL_PORT = 465
+
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
