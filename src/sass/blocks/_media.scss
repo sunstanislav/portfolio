@@ -1,0 +1,139 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .sidepanel {
+        display: none;
+    }
+    .about {
+        &__wrapper {
+            column-gap: 28px;
+            grid-template-columns: 400px 520px;
+        }
+        &__skills {
+            column-gap: 20px;
+            &-item {
+                column-gap: 9px;
+                grid-template-columns: 37px 211px;
+            }
+        }
+    }
+    .title {
+        text-shadow: 1px 2px 5px #9e9e7a61;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .about {
+        &__wrapper {
+            grid-template-columns: 300px 380px;
+        }
+        &__skills {
+            margin-top: 0;
+            grid-template-columns: 380px;
+            grid-auto-rows: minmax(115px, auto);
+                &-item {
+                grid-template-columns: 40px 320px;
+                column-gap: 20px;
+            }
+        }
+    }
+    .title {
+        &_fz36 {
+            font-size: 30px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .about {
+        &__wrapper {
+            grid-template: 400px auto auto / 1fr;
+        }
+        &__photo {
+            grid-row: unset;
+        }
+        &__skills {
+            grid-template-columns: repeat(2, 260px);
+            &-item {
+                grid-template-columns: 40px 200px;
+                column-gap: 20px;
+            }
+        }
+    }
+    .promo {
+        &__title {
+            width: 385px;
+            line-height: 30px;
+        }
+    }
+    .title {
+        &_fz48 {
+            font-size: 35px;
+        }
+    }
+    .menu {
+        &__link {
+            font-size: 18px;
+            line-height: 23px;
+            text-shadow: 1px 2px 5px #9e9e7a61;
+            &:before {
+                top: 4px;
+            }
+        }
+        &__block {
+            width: 250px;
+            padding-top: 100px;
+            padding-left: 20px;
+        }
+        &__close {
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &__social {
+            bottom: 25px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100% !important;
+        padding: 0 10px;
+    }
+    .title {
+        &_fz48 {
+            font-size: 26px;
+            width: 300px;
+        }
+        &_fz36 {
+            font-size: 24px;
+        }
+    }
+    .hamburger {
+        right: 20px;
+    }
+    .promo {
+        background-size: 138% auto;
+        &__btns {
+            margin-top: 30px;
+        }
+    }
+    .about {
+        &__wrapper {
+            grid-template: 340 auto auto / 1fr;
+        }
+        &__skills {
+            grid-template-columns: 1fr;
+        }
+    }
+}
