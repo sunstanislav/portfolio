@@ -3,10 +3,10 @@
     position: relative;
     &__title {
         text-align: center;
-        margin-bottom: 0;
+        margin-bottom: 10px;
         @include before_circle;
         &:before {
-            top: 54px;
+            top: 64px;
             left: 50%;
             transform: translateX(-50%);
         }
@@ -48,7 +48,7 @@
             margin: 20px 0 0 0;
         }
     }
-    &__rating {
+    &__ratings {
         margin-top: 60px;
         display: grid;
         grid-template: repeat(2, minmax(70px, auto)) / repeat(2, 350px);

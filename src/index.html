@@ -67,7 +67,7 @@
 </aside>
 
 <!-- промо -->
-<section class="promo">
+<section class="promo" id="promo">
     <div class="hamburger">
         <span></span>
         <span class="long"></span>
@@ -96,7 +96,7 @@
         <nav>
             <ul class="menu__list">
                 <li class="menu__link"><a href="#about">ПРО МЕНЯ</a></li>
-                <li class="menu__link"><a href="#about">МОЙ ОПЫТ</a></li>
+                <li class="menu__link"><a href="#resume">МОЙ ОПЫТ</a></li>
                 <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
                 <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
                 <li class="menu__link"><a href="#price">ПРАЙС-ЛИСТ</a></li>
@@ -182,7 +182,7 @@
     </section>
     
   <!-- резюме -->
-  <section class="resume">
+  <section class="resume" id="resume">
     <div class="container">
         <h2 class="title title_fz16 resume__title">Опыт</h2>
         <div class="title title_fz36 resume__subtitle">Чем я буду полезен</div>
@@ -331,32 +331,32 @@
             </div>
     
     <!-- проценты -->
-            <div class="skills__rating">
-                <div class="skills__rating-item">
-                    <div class="skills__rating-title title title_fz14">Создание сайтов</div>
-                    <div class="skills__rating-counter">90%</div>
-                    <div class="skills__rating-line">
+            <div class="skills__ratings">
+                <div class="skills__ratings-item">
+                    <div class="skills__ratings-title title title_fz14">Создание сайтов</div>
+                    <div class="skills__ratings-counter">90%</div>
+                    <div class="skills__ratings-line">
                         <span></span>
                     </div>
                 </div>
-                <div class="skills__rating-item">
-                    <div class="skills__rating-title title title_fz14">Сопровождение сайтов</div>
-                    <div class="skills__rating-counter">95%</div>
-                    <div class="skills__rating-line">
+                <div class="skills__ratings-item">
+                    <div class="skills__ratings-title title title_fz14">Сопровождение сайтов</div>
+                    <div class="skills__ratings-counter">95%</div>
+                    <div class="skills__ratings-line">
                         <span></span>
                     </div>
                 </div>
-                <div class="skills__rating-item">
-                    <div class="skills__rating-title title title_fz14">Разработка дизайна</div>
-                    <div class="skills__rating-counter">75%</div>
-                    <div class="skills__rating-line">
+                <div class="skills__ratings-item">
+                    <div class="skills__ratings-title title title_fz14">Разработка дизайна</div>
+                    <div class="skills__ratings-counter">75%</div>
+                    <div class="skills__ratings-line">
                         <span></span>
                     </div>
                 </div>
-                <div class="skills__rating-item">
-                    <div class="skills__rating-title title title_fz14">SEO оптимизация</div>
-                    <div class="skills__rating-counter">85%</div>
-                    <div class="skills__rating-line">
+                <div class="skills__ratings-item">
+                    <div class="skills__ratings-title title title_fz14">SEO оптимизация</div>
+                    <div class="skills__ratings-counter">85%</div>
+                    <div class="skills__ratings-line">
                         <span></span>
                     </div>
                 </div>
@@ -386,7 +386,7 @@
                 <a href="#" class="portfolio__item">
                     <img src="img/works/soon.jpg" alt="soon">
                 </a>
-                <a href="#" class="portfolio__item horizontal">
+                <a href="#" class="portfolio__item horizonal">
                     <img src="img/works/soon.jpg" alt="soon">
                 </a>
             </div>
@@ -449,9 +449,9 @@
                             <img src="icons/social/whatsapp-121.svg" alt="whatsapp">
                         </a>
                     </div>
-                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
+                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>
                     <!-- форма -->
-                    <form action="#" class="contacts__form">
+                    <form action="#" class="contacts__form" id="contacts__form">
                         <div class="contacts__input">
                             <input required name="name" type="text" id="name">
                             <label for="name">Ваше имя</label>
@@ -477,7 +477,11 @@
             </div>
         </div>
     </section>
-    
+<!-- pageup -->
+<a href="#promo" class="pageup">
+    <img src="icons/up.svg" alt="up">
+</a>
+<!-- script -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/script.js"></script>
 </body>

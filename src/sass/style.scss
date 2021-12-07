@@ -36,3 +36,16 @@
     background-color: $main-color;
     margin: 25px auto 0 auto;
 }
+
+// pageup
+.pageup {
+    display: block;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    img {
+        width: 100%;
+    }
+}
