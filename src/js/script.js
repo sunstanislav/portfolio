@@ -30,7 +30,7 @@ $('form').submit(function(e) {
         $('form').trigger('reset');
     });
     return false;
-})
+});
 // скролл
 $(window).scroll(function() {
     if ($(this).scrollTop() > 1600) {
